@@ -1,2 +1,37 @@
-# News_recommendation_sytem_capstone_project
-Capstone project on a news recommendation system that basically recommends news  based on a given category. It uses the content based recommendation methodology
+# News Recommendation Sytem
+This project is a content-based news recommendation system built using Python and Streamlit. It recommends news articles to users based on a specific category they are interested in. The application utilizes a cosine similarity matrix to identify and recommend articles that are most similar to the user's preference.
+
+## Features
+  1. Category-Based Recommendations: Enter a category (e.g., politics, sports, 
+     environment) to get tailored news recommendations.
+  2. Cosine Similarity: Leverages cosine similarity to find the most relevant 
+     articles.
+  3. Interactive Web App: Built with Streamlit for an easy-to-use and visually 
+     appealing interface.
+  4. Dynamic Search: Case-insensitive search for flexible and robust category 
+     matching.
+
+## Technologies Used
+ 1. Python
+ 2. Streamlit (for the interactive web interface)
+ 3. Pandas (for data manipulation)
+ 4. scikit-learn (for cosine similarity)
+ 5. Joblib (for saving and loading the vectorizer and similarity matrix)
+ 6. Jupyter Notebook (for model development)
+
+## Dataset
+The dataset (data.csv) contains the following columns:
+
+  1. headline: The title of the article.
+  2. short_description: A brief summary of the article.
+  3. category: The article's category (e.g., sports, business, environment).
+  4. links: URL to the full article.
+
+## Project Files
+  1.  news-recommendation-system.ipynb: Jupyter Notebook with the code for 
+      generating the vectorizer and cosine similarity matrix.
+  2.  vectorizer.pkl: Saved TF-IDF vectorizer.
+  3. cosine_sim.pkl: Pre-computed cosine similarity matrix.
+  4. data.csv: Dataset containing news articles, categories, and descriptions.
+  5. app.py: Streamlit app for running the recommendation system.
+  6. README.md: This file.
