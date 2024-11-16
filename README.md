@@ -29,6 +29,12 @@ The dataset (data.csv) has already been processed and contains the following col
   4. links: URL to the full article.
 
 This is the link to the original dataset: https://www.kaggle.com/datasets/rmisra/news-category-dataset it is in the json format.
+Basing on my dataset i have these categories ythat can be recommended: 'u.s news', 'comedy', 'parenting', 'world news', 'culture art',
+       'tech', 'sport', 'entertainment', 'politic', 'weird news',
+       'environment', 'education', 'crime', 'science', 'wellness',
+       'business', 'style beauty', 'food drink', 'medium', 'queer voice',
+       'home living', 'woman', 'black voice', 'travel'
+
 
 ## Project Files
   1.  news-recommendation-system.ipynb: Jupyter Notebook with the code for 
