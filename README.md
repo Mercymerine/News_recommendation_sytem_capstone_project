@@ -27,6 +27,8 @@ The dataset (data.csv) contains the following columns:
   3. category: The article's category (e.g., sports, business, environment).
   4. links: URL to the full article.
 
+This is the link to the original dataset: https://www.kaggle.com/datasets/rmisra/news-category-dataset it is in the json format.
+
 ## Project Files
   1.  news-recommendation-system.ipynb: Jupyter Notebook with the code for 
       generating the vectorizer and cosine similarity matrix.
