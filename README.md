@@ -20,7 +20,8 @@ This project is a content-based news recommendation system built using Python an
  6. Jupyter Notebook (for model development)
 
 ## Dataset
-The dataset (data.csv) contains the following columns:
+1000 rows were used to train this model.
+The dataset (data.csv) has already been processed and contains the following columns:
 
   1. headline: The title of the article.
   2. short_description: A brief summary of the article.
