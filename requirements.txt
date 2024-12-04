@@ -1,1 +1,10 @@
+pandas
+numpy==1.26.3
+json
 joblib
+scikit-learn
+faiss-cpu
+spacy
+
+
+
