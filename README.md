@@ -1,5 +1,5 @@
 # News Recommendation Sytem
-This project is a content-based news recommendation system built using Python and Streamlit. It recommends news articles to users based on a specific category they are interested in. The application utilizes a cosine similarity matrix to identify and recommend articles that are most similar to the user's preference.
+This project is a content-based news recommendation system built using Python and Streamlit. It recommends news articles to users based on a specific category they are interested in. The application utilizes a cosine similarity matrix to identify and recommend articles that are most similar to the user's preference. Basing on my dataset these are the categories that can be recommended:u.s news, comedy, parenting, world news, culture art, tech, sport, entertainment, politic, weird news, environment, education, crime, science, wellness, business, style beauty, food drink, medium, queer voice, home living, woman, black voice, travel.
 
 ## Features
   1. Category-Based Recommendations: Enter a category (e.g., politics, sports, 
@@ -29,11 +29,6 @@ The dataset (data.csv) has already been processed and contains the following col
   4. links: URL to the full article.
 
 This is the link to the original dataset: https://www.kaggle.com/datasets/rmisra/news-category-dataset it is in the json format.
-Basing on my dataset i have these categories ythat can be recommended: 'u.s news', 'comedy', 'parenting', 'world news', 'culture art',
-       'tech', 'sport', 'entertainment', 'politic', 'weird news',
-       'environment', 'education', 'crime', 'science', 'wellness',
-       'business', 'style beauty', 'food drink', 'medium', 'queer voice',
-       'home living', 'woman', 'black voice', 'travel'
 
 
 ## Project Files
